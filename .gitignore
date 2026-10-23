@@ -1,0 +1,27 @@
+# Generated builds and deployment packages (EXEs may contain embedded credentials).
+/build*/
+/dist*/
+/deployment*/
+
+# Downloaded SDKs, tools, temporary packages and test data.
+/.build-tools/
+/work/
+/aqtinstall.log
+
+# Local IDE settings and Python caches.
+/.vs/
+*.user
+CMakeUserPresets.json
+__pycache__/
+*.py[cod]
+
+# Generated TLS material and enrollment credentials, including backups/staging.
+server.key
+server.crt
+client.json
+client.json.bak
+client.json.tmp
+computers.json
+computers.json.bak
+computers.json.before-*
+computers.*.tmp
